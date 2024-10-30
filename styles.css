@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+background: #1e293b;
+margin: 0;
+font-family: 'Poppins', sans-serif;
+}
+.foot{
+    background: #1e293b;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    }
+.foot p{
+    color: #f08902;
+}
+.foot a{
+    color: #f08902;
+}
+.logo{
+    margin: 5px;
+    border-radius: 50px;
+    border: 2px solid #f08902;
+}
+.navbar-brand{
+    color: #f08902;
+}
+.navbar{
+    border-bottom: 3px solid #f08902;
+    background-color:#1e293b;
+}
+.navbar-nav{
+    margin-left: 70px;
+}
+.header {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    animation: slideShow 20s infinite;
+    transition: background-image 1s ease-in-out;
+}
+
+.header h1 {
+    font-size: 3rem;
+}
+
+.header p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+@keyframes slideShow {
+    0% {
+        background-image: url('slideshow/contact.jpg');
+    }
+    33% {
+        background-image: url('slideshow/bridal.jpg');
+    }
+    66% {
+        background-image: url('slideshow/heavy.webp');
+    }
+    100% {
+        background-image: url('slideshow/trucking.jpg');
+    }
+}
+.headerb {
+    background-image: url('bridal.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px; 
+}
+
+.headert {
+    background-image: url('towing.png');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px; 
+}
+.headertru {
+    background-image: url('trucking.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px; 
+}
+.headerh {
+    background-image: url('heavy.webp');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px; /* Add padding */
+}
+.headerm {
+    background-image: url('main.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    flex-direction: column; /* Change to column to stack elements */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px; /* Add padding */
+}
+.headerf {
+    background-image: url('hotel.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    flex-direction: column; /* Change to column to stack elements */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px; /* Add padding */
+}
+.headera {
+    background-image: url('part.webp');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    flex-direction: column; /* Change to column to stack elements */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px; /* Add padding */
+}
+.headercont {
+    background-image: url('contact.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    flex-direction: column; /* Change to column to stack elements */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px; /* Add padding */
+}
+.headerab {
+    background-image: url('contact.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    flex-direction: column; /* Change to column to stack elements */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px; /* Add padding */
+}
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar {
+    padding: 15px 20px; /* Adjust navbar padding */
+}
+.services-list {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 900px;
+    
+}
+
+.services-list h2 {
+    margin-bottom: 30px;
+}
+
+.service-item {
+    margin: 15px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    cursor: pointer; /* Change cursor to indicate it's clickable */
+}
+.service {
+    width: 30%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.service-list {
+    margin: 20px;
+}
+
+.service {
+    color: #f08902;
+    border: 1px solid #f08902;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: auto;
+}
+.service h4, h3, .price{
+    color: white;
+}
+.container h2{
+    padding-top: 50px;
+}
+.carousel {
+    margin: 20px 0;
+    height: 300px; /* Set a fixed height for the carousel */
+    overflow: hidden; /* Prevent overflow of images */
+    border: 2px solid #f08902;
+    border-radius: 10px;
+}
+
+.carousel img {
+    height: 100%; /* Make images fill the height of the carousel */
+    object-fit: cover; /* Ensure images cover the area without distortion */
+}
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.services-list {
+    margin-top: 40px;
+}
+
+.service-item {
+    border: 2px solid #f08902;
+    height: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Pop-up animation on hover */
+.service-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Add an overlay effect on hover */
+.service-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 10px;
+}
+
+.service-item:hover::before {
+    opacity: 1;
+}
+
+/* Text animation on hover */
+.service-item h3 {
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.service-item:hover h3 {
+    transform: translateY(-5px);
+    color: #f08902; /* Optional color change on hover */
+}
+
+
+.bridal {
+    background-image: url('bridal.jpg');
+}
+
+.towing {
+    background-image: url('towing.png');
+}
+
+.trucking {
+    background-image: url('trucking.jpg');
+}
+
+.heavy {
+    background-image: url('heavy.webp');
+}
+
+.maintenance {
+    background-image: url('main.jpg');
+}
+
+.hotel {
+    background-image: url('hotel.jpg');
+}
+
+.auto {
+    background-image: url('part.webp');
+}
+h2{
+    color: #f08902;
+}
+.header h1{
+    font-size: 70px;
+}
+.header p{
+    font-size: 20px;
+}
+.nav-link{
+    color: #f08902;
+}
+.btn1{
+    color: #f08902;
+    border: 1px solid #f08902;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.dropdown-menu{
+    background-color: #1e293b;
+}
+.dropdown-item{
+    color: #f08902;
+}
+.dropdown{
+    color: #f08902;
+}
+.custom-dropdown-toggle{
+    color: #f08902;
+}
+.form-control{
+    border: 1px solid #f08902;
+    background: transparent;
+}
+.form-control::placeholder{
+    color: #f08902;
+}
+
+.dropdown-item:hover{
+    background-color: #f08902;
+    color: white;
+}
+.services-list h2{
+    font-size: 40px;
+}
+.headerb h1{
+    font-size: 70px;
+}
+.headerb p{
+    font-size: 20px;
+}
+.headert h1{
+    font-size: 70px;
+}
+.headert p{
+    font-size: 20px;
+}
+.headertru h1{
+    font-size: 70px;
+}
+.headertru p{
+    font-size: 20px;
+}
+.headerh h1{
+    font-size: 70px;
+}
+.headerh p{
+    font-size: 20px;
+}
+.headerm h1{
+    font-size: 70px;
+}
+.headerm p{
+    font-size: 20px;
+}
+.headerf h1{
+    font-size: 70px;
+}
+.headerf p{
+    font-size: 20px;
+}
+.headera h1{
+    font-size: 70px;
+}
+.headera p{
+    font-size: 20px;
+}
+.headercont h1{
+    font-size: 70px;
+}
+.headercont p{
+    font-size: 20px;
+}
+.headerab h1{
+    font-size: 70px;
+}
+.headerab p{
+    font-size: 20px;
+}
+.about-section h2{
+color: white;
+}
+.about-section ul{
+    color: #f08902;
+}
+.form-label{
+    color: #f08902;
+}
+.container p{
+    color: #f08902;
+}
+.blank h1{
+    color: white;
+    font-size: 50px;
+}
+.blank p{
+    color: #f08902;
+    font-size: 20px;
+}
+.act{
+    color: white;
+}
+.btn2{
+    text-decoration: none;
+    border-radius: 10px;
+    height:40px;
+    padding: 10px;
+    width: 120px;
+    background-color: #f08902;
+    color: white;
+    box-shadow: 1px 1px 5px #1e293b;
+}
+.form-container{
+    border: 2px solid #f08902;
+    padding: 30px;
+    border-radius: 20px;
+}
+.form-container h2{
+    color: white;
+}
+.btn3{
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: transparent;
+    color: #f08902;
+    width: 160px;
+    border: 2px solid #f08902;
+    border-radius: 10px;
+    padding: 6px;
+
+}
+.btn4{
+    margin: 10px;
+    background-color: transparent;
+    color: red;
+    width: 160px;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 6px;
+
+}
+/* Hide the form initially with opacity */
+#booking-form {
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Show the form with opacity and scale effect */
+#booking-form.show {
+    opacity: 1;
+    transform: scale(1);
+    display: block;
+}
+/* Add fade-in animation for the form */
+.form-container {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.form-container.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.con{
+    margin-top: 50px;
+    border: 2px solid #f08902;
+    padding: 40px;
+    border-radius: 20px;
+}
